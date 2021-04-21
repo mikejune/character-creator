@@ -1,9 +1,11 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -34,4 +36,12 @@
 
 .controlColumn {
   width: 50%;;
+}
+
+.perspectiveDecoration {
+  height: 40%;
+  background: hsl(195deg, 20%, 86%);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
